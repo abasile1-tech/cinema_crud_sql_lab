@@ -53,4 +53,5 @@ INSERT INTO movies (title, year, show_time) VALUES ('Black Panther', 2018, '21:0
 -- SELECT * FROM movies;
 -- SELECT name FROM people;
 -- UPDATE people SET name = 'Krusty the Clown' WHERE name = 'Crusty the Clown';
-SELECT name FROM people WHERE name = 'Homer Simpson';
+-- SELECT name FROM people WHERE name = 'Homer Simpson';
+DELETE FROM movies WHERE title = 'Batman Begins';

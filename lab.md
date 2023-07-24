@@ -89,6 +89,11 @@ SELECT name FROM people WHERE name = 'Homer Simpson';
 (1 row)
 
 5.  The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
+
+DELETE FROM movies WHERE title = 'Batman Begins';
+
+DELETE 1
+
 6.  We forgot one of the main characters! Add Bart Simpson to the 'people' table
 7.  Eric Cartman has decided to hijack our movie evening, Remove him from the table of people.
 8.  The cinema has just heard that they will be holding an exclusive midnight showing of 'Avengers: Infinity War'!! Create a new entry in the 'movies' table to reflect this.
