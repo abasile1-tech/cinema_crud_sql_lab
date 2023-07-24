@@ -74,6 +74,11 @@ SELECT name FROM people;
 (16 rows)
 
 3.  Oops! Someone spelled Krusty The Clown's name wrong! Change it to reflect the proper spelling (Crusty should be Krusty).
+
+UPDATE people SET name = 'Krusty the Clown' WHERE name = 'Crusty the Clown';
+
+UPDATE 1
+
 4.  Return ONLY Homer Simpson's name from the 'people' table.
 5.  The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
 6.  We forgot one of the main characters! Add Bart Simpson to the 'people' table
