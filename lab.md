@@ -23,7 +23,9 @@ Use the supplied data as the source of data to answer the questions. Copy the SQ
 ## Questions
 
 1.  Return ALL the data in the 'movies' table.
+
 SELECT * FROM movies;
+
  id |                title                | year | show_time
 ----+-------------------------------------+------+-----------
   1 | Iron Man                            | 2008 | 17:00
@@ -46,7 +48,31 @@ SELECT * FROM movies;
  18 | Thor: Ragnarok                      | 2017 | 22:10
  19 | Black Panther                       | 2018 | 21:00
 (19 rows)
+
 2.  Return ONLY the name column from the 'people' table
+
+SELECT name FROM people;
+
+         name
+----------------------
+ Homer Simpson
+ Marge Simpson
+ Lisa Simpson
+ Maggie Simpson
+ Patty Bouvier
+ Selma Bouvier
+ Kent Brockman
+ Ned Flanders
+ Barney Gumble
+ Itchy
+ Eric Cartman
+ Scratchy
+ Crusty the Clown
+ Montgomery Burns
+ Mayor Joe Quimby
+ Groundskeeper Willie
+(16 rows)
+
 3.  Oops! Someone spelled Krusty The Clown's name wrong! Change it to reflect the proper spelling (Crusty should be Krusty).
 4.  Return ONLY Homer Simpson's name from the 'people' table.
 5.  The cinema is showing 'Batman Begins', but Batman is DC, not Marvel! Delete the entry from the 'movies' table.
