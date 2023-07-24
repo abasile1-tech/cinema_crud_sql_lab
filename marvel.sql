@@ -60,4 +60,9 @@ DELETE FROM people WHERE name = 'Eric Cartman';
 INSERT INTO movies (title, show_time) VALUES ('Avengers: Infinity War', '00:00');
 UPDATE movies SET show_time = '20:45' WHERE title = 'Iron Man 3';
 
+-- DELETING MULTIPLE ENTRIES AT ONCE ANSWERS
+--DELETE FROM movies WHERE title in ('Iron Man', 'Iron Man 2', 'Iron Man 3');
+--DELETE FROM people WHERE id=1 or id=2 or id=3;
+--DELETE FROM people WHERE name ='Homer Simpson' or name='Marge Simpson';
+--DELETE FROM people WHERE name like 'Home Simpson';
 DELETE FROM people WHERE id BETWEEN 1 AND 5;
