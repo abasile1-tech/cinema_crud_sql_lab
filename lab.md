@@ -114,6 +114,10 @@ INSERT 0 1
 
 9.  The cinema would like to make the Iron Man movies a triple billing. Find out the show time of "Iron Man 2" and set the show time of "Iron Man 3" to start two hours later.
 
+UPDATE movies SET show_time = '20:45' WHERE title = 'Iron Man 3';
+
+UPDATE 1
+
 ## Extension
 
 1.  Research how to delete multiple entries from your table in a single command.
