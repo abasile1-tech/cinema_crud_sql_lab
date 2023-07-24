@@ -59,3 +59,5 @@ INSERT INTO people (name) VALUES ('Bart Simpson');
 DELETE FROM people WHERE name = 'Eric Cartman';
 INSERT INTO movies (title, show_time) VALUES ('Avengers: Infinity War', '00:00');
 UPDATE movies SET show_time = '20:45' WHERE title = 'Iron Man 3';
+
+DELETE FROM people WHERE id BETWEEN 1 AND 5;
